@@ -1,0 +1,127 @@
+html, body {
+  font-family:      Verdana, sans-serif;
+  font-size:        15px;
+  line-height:      1.5;
+  color:            #404040;
+  background-color: #ECE0FF;
+}
+
+h1 {font-weight: bold;
+  font-size: 350%;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #000000;
+  margin-bottom: 5px;
+  margin-left: 20px
+}
+
+h2, h3 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #000000;
+  padding: 5;
+  margin-bottom: 5px;
+  font-size: 300%;
+  font-weight:300;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.reveal {
+  float: right;
+  position: relative;
+  top: -15px;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 75%;
+}
+main, .major-section, #content {
+  border: solid 2px #64097b;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding: auto 20px 10px 20px;
+  width: 95%;
+  margin: 20px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+
+#wrapper {
+  border: solid 1px #64097b;
+  width: 98%;
+  background-color: transparent;
+  overflow: hidden;
+  margin: 20px
+}
+
+#content-left {
+  display: inline-block;
+  border: solid 1px #64097b;
+  width: 46%;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#content-right {
+  display: inline-block;
+  border: solid 1px #64097b;
+  width: 46%;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 9.8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px
+}
+
+#headshot img {
+
+  width: 400px;
+
+}
+
+#title {
+  font-weight: bold;
+  font-size: 120%;
+  color: #404040;
+  margin-bottom: 5px;
+  margin-left: 20px
+}
+
+.assignments li a {
+  color: #606060;
+}
+input, select, label, radio {margin-bottom: 15px;}
+
+form {border: solid 1px;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      display: inline-block;}
+img {margin: 10px;
+}
+
+#submission { padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-top: 20px;
+}
