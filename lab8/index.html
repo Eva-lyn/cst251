@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 8: CSS Selectors</title>
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+	</head>
+	<body>
+    <div class=center> <h1>Lab 8: CSS Selectors</h1> </div>
+		<div id="wrapper">
+        <div id="content-left">
+             <h2>Challenge</h2>
+              <p>The goal of this lab was to work with my partner, create a lab 8
+                index.html and style it using CSS selectors. We were told to use the
+                same CSS that we created in lab 7 but add specific selectors. </p>
+                <div class="bold">
+                  <p>The new rules that we needed to add were;</p>
+                  <li> To style every element of a particular class
+                  <li> To style a particular type of element with a class name
+                  <li> Make a rule that can style more than one element at a time
+                  <li> Style an element within another element.
+                </div>
+              <p> This challenge involed a lot of trial and error by using the
+                  inspector tool and testing locally.</p>
+        </div>
+
+        <div id="content-right">
+            <h2>Problems</h2>
+              <p> My first task was to stylize my lists. After styling my list I made a
+              class called .bold. I practiced the inheritance rules by putting my list in
+              a div that has the class .bold.</p>
+              <p><purple> Next I wanted to make certain words
+              a different color by making a tag named purple.</purple></p>
+              <p>I also wanted to make my image rounded and change sizes when it is
+              hovered over by the mouse. In order for my image to be rounded and
+              change sizes at the same time I had to make very specific rules in
+              my code to make it all work, this involved refrencing children
+              and using multiple divs.
+              </p>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="center">
+          <h2>Results</h2>
+        </div>
+
+  				<bold>Problem 1:</bold>
+							<div class="indent">
+								I created a class called .bold so that whatever text
+								is inside the div with the class .bold would have a font weight of 600.
+							</div>
+							<br>
+					<bold>Problem 2: </bold>
+							<div class="indent">
+								For the purple text, I made a tag named purple.
+								I'm sure this isnt a real tag but I learned in
+								class that HTML 5 is very flexible with made up tags and its rules.
+							</div>
+							<br>
+					<bold>Problem 3: </bold>
+						 	<div class="indent">
+								I rounded my image and created an 8px purple border to frame the image.
+								The hardest part of this task was making a rule that would increase the size
+								of the image when hovered over. Originally I set up my css rule as;
+								<div class="indent">
+									<purple>div.special:hover, img.round {}</purple>
+								</div>
+						 		This took away the effects of img.round. After a ton of trial and error I came to the conclusion of;
+								<div class="indent">
+									<purple>div.special:hover>img.round {}</purple>
+								</div>
+
+						 		This kept my image effect and allowed it to change sizes.
+							</div>
+							<br>
+					<bold>Problem 4: </bold>
+						<div class="indent">
+							My last task was to visually clean up my site and this included;
+							<div class="indent">
+								<li> Fixing my div problem from lab 7
+								<li> Fixing issues with my .center class
+								<li> Creating a div class for my image so that it doesnt interfere with the text
+								<li> Creating icons that connected my current page to my landing site and to the next lab
+								<li> Cleaning up my CSS.
+							</div>
+						</div>
+
+        <div class="center">
+            <div class="hover-border">
+              <div class="special">
+                <img class="round" src="img/mikey.png" alt="center Mikey">
+              </div>
+            </div>
+        </div>
+        <div class="center">
+            <p>Please enjoy this centered image of my goat!</p>
+    		</div>
+
+
+
+      	<div id="icon-wrapper">
+        	<div id="icon-left">
+          	<a href="../index.html"><img src="img/home-icon.png" width=50></a>
+        	</div>
+        	<div id="icon-right">
+          	<a href="../lab9/index.html"><img src="img/next-icon.png" width=50></a>
+        	</div>
+      	</div>
+    </div>
+
+
+	</body>
+</html>
