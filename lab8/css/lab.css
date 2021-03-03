@@ -60,20 +60,19 @@ main, .major-section, #content {
   padding-left:       30px;
   padding-right:      30px;
   padding-bottom:     10px;
-  padding:            auto 20px 10px 20px;
-  width:              1130px;
   margin:             20px;
   margin-bottom:      5px;
   background-color:   #fff;
+  width:              1130px;
 }
 
 /* #wrapper and #content-x is used for wrapping content ONLY */
 #wrapper {
   border:             solid transparent;
-  width:              1190px;
   background-color:   transparent;
   overflow:           hidden;
   margin:             20px;
+  width:              1190px;
 }
 
 #content-left {
