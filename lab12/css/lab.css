@@ -1,0 +1,302 @@
+html {
+  background-color:   #ECE0FF;
+  background-image:   url("../img/bkrnd-purp.png");
+  background-repeat:  repeat;
+  background-size:    300px;
+}
+
+body {
+  font-family:        "Open Sans Condensed";
+  font-size:          16px;
+  font-weight:        300;
+  line-height:        1.4;
+  letter-spacing:     0.5px;
+}
+
+#title{
+  border:             solid transparent;
+  width:              max-content;
+  background-color:   rgba(236, 224, 255, .94);
+  overflow:           hidden;
+  margin:             10px;
+  padding:            15px;
+  border-radius:      20px;
+}
+
+h1 {
+  font-weight:        bold;
+  font-size:          350%;
+  font-family:        Brush Script MT, Brush Script Std, cursive;
+  word-spacing:       5px;
+  letter-spacing:     1px;
+  color:              #000000;
+  margin:             5px 5px 5px 5px;
+}
+
+h2, h3 {
+  font-family:        "Special Elite";
+  color:              #48024c;
+  padding:            5;
+  margin-bottom:      5px;
+  font-size:          35px;
+  font-weight:        300;
+  letter-spacing:     2px;
+  text-decoration:    underline;
+  line-height:        1.5;
+}
+
+h5 {
+  font-family:        Verdana, sans-serif;
+  font-size:          20px;
+  font-weight:        600;
+  line-height:        1;
+  color:              #404040;
+}
+
+a {
+  text-decoration:    none;
+  text-transform:     uppercase;
+  color:              #888;
+  font-weight:        bold;
+  font-size:          90%;
+}
+
+li {
+  list-style-type:      square;
+  list-style-position:  outside;
+  margin-left:          0px;
+}
+
+.reveal {
+  float:              right;
+  position:           relative;
+  top:                -15px;
+  font-weight:        normal;
+  font-size:          75%;
+}
+
+main, .major-section, #content {
+  border: solid       2px #64097b;
+  padding:            10px 30px 10px 30px;
+  margin:             20px;
+  margin-top:         30px;
+  background-color:   #fff;
+}
+
+
+/* #wrapper and #content-x is used for wrapping content ONLY */
+#wrapper {
+  border:             solid transparent;
+  background-color:   transparent;
+  overflow:           hidden;
+  margin:             20px;
+  margin-top:         35px;
+}
+
+#content-left {
+  display:            inline-block;
+  border:             solid 2px #64097b;
+  width:              44%;
+  min-width:          400px;
+  height:             430px;
+  background-color:   #fff;
+  padding:            10px 25px 10px 25px;
+  float:              left;
+}
+
+#content-right {
+  display:            inline-block;
+  border:             solid 2px #64097b;
+  width:              44%;
+  min-width:          400px;
+  height:             430px;
+  background-color:   #fff;
+  padding:            10px 25px 10px 25px;
+  float:              right;
+}
+
+/* #icon-x used for home and next icon placement ONLY */
+#icon-wrapper {
+  border:             solid transparent;
+  width:              auto;
+  background-color:   rgba(236, 224, 255, .7);
+  overflow:           hidden;
+  margin:             10px;
+  padding:            15px;
+  border-radius:      20px;
+}
+
+#icon-right {
+  display:            inline-block;
+  float:              right;
+}
+
+#icon-left {
+  display:            inline-block;
+  float:              left;
+}
+
+#icon-left img, #icon-right img {
+  width:              50px;
+}
+
+.indent {
+  margin-left: 30px
+}
+
+/* centers any item */
+.center {
+  display:            block;
+  margin-left:        auto;
+  margin-right:       auto;
+  align-content:      center;
+  text-align:         center;
+  align-items:        center;
+  width:              max-content;
+}
+
+/* .bold is a div applicable to any item with text */
+.bold{
+  font-family:        "Open Sans Condensed";
+  font-size:          15px;
+  font-weight:        700;
+  line-height:        1.5;
+  color:              #404040;
+}
+
+bold {
+  font-family:        "Open Sans Condensed";
+  font-size:          20px;
+  font-weight:        700;
+  line-height:        1.5;
+  color:              #404040;
+}
+
+purple {
+  color:              #926eca;
+}
+
+/*form tags*/
+input, select, label, radio {
+  margin-bottom:      15px;
+}
+
+/* formatting for any form tags */
+form {border: solid   1px;
+      border-radius:  5px;
+      padding-left:   20px;
+      padding-right:  20px;
+      padding-bottom: 10px;
+      padding-top:    20px;
+      margin-left:    10px;
+      margin-right:   10px;
+      margin-bottom:  20px;
+      margin-top:     20px;
+      display:        inline-block;
+}
+
+/* Default to images without class */
+img {
+  margin:             10px;
+  width:              150px;
+  min-width:          50px;
+}
+
+img.round {
+  margin:             10px;
+  border-radius:      50%;
+  border:             solid 7px;
+  border-color:       #926eca;
+  width:              150px;
+}
+
+/* > allowed for img.round to be unchanged and work within div.special */
+div.special:hover>img.round {
+  width:              255px;
+}
+
+/* This border goes around div.special:hover to prevent displacement in text */
+div.hover-border {
+    overflow:         hidden;
+    border:           solid transparent;
+    display:          inline-block;
+    width:            280px;
+    height:           350px;
+}
+
+#submission {
+    padding-left:     20px;
+    padding-right:    20px;
+    padding-bottom:   10px;
+    padding-top:      20px;
+}
+
+#floated1 {
+  float:              left;
+  width:              30%;
+  display:            inline-block;
+  margin-top:         20px;
+}
+
+#floated2 {
+  float:              right;
+  width:              30%;
+  display:            inline-block;
+  margin-top:         20px;
+}
+
+#center-horz, #center-img {
+  display:            block;
+  margin-left:        auto;
+  margin-right:       auto;
+  align-content:      center;
+  text-align:         center;
+  align-items:        center;
+  width:              30%;
+  margin-bottom:      20px;
+  margin-top:         20px;
+}
+
+#center-both {
+  height:             200px;
+  position:           relative;
+}
+
+#center-both img {
+  margin:             0;
+  position:           absolute;
+  top:                50%;
+  left:               50%;
+  -ms-transform:      translate(-50%, -50%);
+  transform:          translate(-50%, -50%);
+}
+
+#extra {
+  display: inline-block;
+  border: solid transparent;
+  height: 150px;
+  width: 150px;
+  position:           relative;
+  overflow: hidden;
+}
+
+#extra img {
+  margin:             0;
+  position:           absolute;
+  top:                45%;
+  left:               50%;
+  -ms-transform:      translate(-50%, -50%);
+  transform:          translate(-50%, -50%);
+  width: 200px;
+}
+#extra-txt {
+  border: solid transparent;
+  height: 130px;
+  min-width: 235px;
+  width: 55%;
+position: relative;
+bottom: 12%;
+left: 1%;
+margin: 0px 10px 0px 15px;
+  display: inline-block;
+}
