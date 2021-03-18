@@ -272,12 +272,12 @@ div.hover-border {
 }
 
 #extra {
-  display: inline-block;
-  border: solid transparent;
-  height: 150px;
-  width: 150px;
+  display:            inline-block;
+  border:             solid transparent;
+  height:             150px;
+  width:              150px;
   position:           relative;
-  overflow: hidden;
+  overflow:           hidden;
 }
 
 #extra img {
@@ -287,16 +287,16 @@ div.hover-border {
   left:               50%;
   -ms-transform:      translate(-50%, -50%);
   transform:          translate(-50%, -50%);
-  width: 200px;
+  width:              200px;
 }
 #extra-txt {
-  border: solid transparent;
-  height: 130px;
-  min-width: 235px;
-  width: 55%;
-position: relative;
-bottom: 12%;
-left: 1%;
-margin: 0px 10px 0px 15px;
-  display: inline-block;
+  border:             solid transparent;
+  height:             130px;
+  min-width:          235px;
+  width:              55%;
+  position:           relative;
+  bottom:             12%;
+  left:               1%;
+  margin:             0px 10px 0px 15px;
+  display:            inline-block;
 }
