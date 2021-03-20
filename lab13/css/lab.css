@@ -172,7 +172,7 @@ bold {
   color:              #404040;
 }
 
-purple {
+.purple {
   color:              #926eca;
 }
 
@@ -198,7 +198,6 @@ form {border: solid   1px;
 /* Default to images without class */
 img {
   margin:             10px;
-  width:              150px;
   min-width:          50px;
 }
 
@@ -299,4 +298,11 @@ div.hover-border {
   left:               1%;
   margin:             0px 10px 0px 15px;
   display:            inline-block;
+}
+
+iframe#fake {
+  width:              1000px;
+  height:             690px;
+  resize:             both;
+  overflow:           hidden;
 }
