@@ -1,0 +1,86 @@
+.title {
+  border: solid 10px #000000;
+  float: none;
+  Width: max-content;
+  margin: 20px auto 10px auto;
+  align-items: center;
+  align-content: center;
+}
+
+Main {
+  border: solid 10px #000000;
+  float: left;
+  width: 65%;
+  min-width: 200px;
+}
+
+Section {
+  border: solid 10px #000000;
+  float: none;
+  width: 95%;
+  min-width: 190px;
+}
+
+Aside {
+  border: solid 10px #000000;
+  float: right;
+  width: 30%;
+  min-width: 90px;
+}
+
+Nav {
+  border: solid 10px #000000;
+  float: left;
+  height: 100px;
+  width: 20%;
+  min-width: 250px;
+}
+
+Footer {
+border: solid 10px #000000;
+float: right;
+height: 100px;
+width: 75%;
+min-width: 800px;
+}
+
+#bottom {
+width: 100%;
+float: left;
+overflow: hidden;
+border: solid transparent;
+}
+
+#icon-wrapper {
+  border:             solid transparent;
+  width:              70%;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#icon-right {
+  display:            inline-block;
+  float:              right;
+}
+
+#icon-left {
+  display:            inline-block;
+  float:              left;
+}
+
+#icon-left img, #icon-right img {
+  width:              50px;
+}
+
+#wrapper-top{
+  border:             solid transparent;
+  width:              auto;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+}

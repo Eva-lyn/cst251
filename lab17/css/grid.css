@@ -1,0 +1,117 @@
+html{
+    display:          grid;
+}
+
+.title {
+  border:             solid transparent;
+  border-radius:      10px;
+  width:              max-content;
+  margin:             20px auto 10px auto;
+  align-items:        center;
+  align-content:      center;
+}
+
+Main {
+  border:             solid 2px black;
+  float:              left;
+  justify-content:    center;
+  border-radius:      10px;
+  display:            grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 100%;
+}
+
+Section {
+  border:             solid 2px black;
+  float:              left;
+  padding:            5px;
+}
+
+Aside {
+  border:             solid 2px black;
+  border-radius:      10px;
+  float:              right;
+  padding:            5px;
+}
+
+Nav {
+  border:             solid 2px black;
+  border-radius:      10px;
+  float:              left;
+  height:             100px;
+  display:            inline;
+  align-items:        center;
+  justify-content:    space-between;
+  padding:            5px;
+}
+
+Footer {
+  border:             solid 2px black;
+  border-radius:      10px;
+  float:              left;
+  height:             100px;
+  display:            inline;
+  overflow:           hidden;
+  justify-content:    space-between;
+  padding:            5px;
+}
+
+#top {
+  width:              100%;
+  overflow:           hidden;
+  border:             solid transparent;
+  display:            grid;
+  grid-template-columns: 70% 28%;
+  grid-template-rows: 100%;
+  grid-column-gap:    10px 10px;
+  justify-content:    space-between;
+  margin:             5px;
+}
+
+#bottom {
+  border:             solid transparent;
+  width:              100%;
+  float:              left;
+  overflow:           hidden;
+  border:             solid transparent;
+  display:            grid;
+  grid-template-columns: 18% 80%;
+  grid-template-rows: 100%;
+  grid-column-gap:    5px 5px;
+  border-radius:      10px;
+  justify-content:    space-between;
+}
+
+#icon-wrapper {
+  border:             solid transparent;
+  width:              70%;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#icon-right {
+  display:            inline-block;
+  float:              right;
+}
+
+#icon-left {
+  display:            inline-block;
+  float:              left;
+}
+
+#icon-left img, #icon-right img {
+  width:              50px;
+}
+
+#wrapper-top{
+  border:             solid transparent;
+  width:              auto;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+}
