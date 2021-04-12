@@ -1,0 +1,139 @@
+html{
+    background-color:   #BEFAFA;
+    background-image:   url("../img/bkrnd-blue.png");
+    background-repeat:  repeat;
+    background-size:    300px;
+}
+
+.title {
+  border: solid transparent;
+  border-radius: 10px;
+  background-color: aquamarine;
+  width: max-content;
+  margin: 20px auto 10px auto;
+  align-items:  center;
+  align-content: center;
+}
+
+Main {
+  border: solid 10px aquamarine;
+  flex: 70%;
+  min-width: 450px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+Section {
+  border: solid 10px transparent;
+  background-color: #ffffffc7;
+  float: left;
+  flex: 46%;
+  min-width: 190px;
+  flex-grow: 1;
+}
+
+section2 {
+  border: solid 10px transparent;
+  background-color: #ffffffc7;
+  width: 100%;
+  min-width: 190px;
+  flex-grow: 10;
+}
+
+Aside {
+  border: solid 1px transparent;
+  background-color: #c5ffeb;
+  border-radius: 10px;
+  float: right;
+  flex: 25%;
+  min-width: 200px;
+  display: inline-flex;
+}
+
+Nav {
+  border: solid 10px #c5ffeb;
+  background-color: #c5ffeb;
+  border-radius: 10px;
+  height: 100px;
+  flex: 20%;
+  min-width: 100px;
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+}
+
+Footer {
+  border: solid 10px #c5ffeb;
+  background-color: #c5ffeb;
+  border-radius: 10px;
+  float: left;
+  height: 100px;
+  flex: 70%;
+  min-width: 600px;
+  display: inline;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+#top {
+  width: 100%;
+  overflow: hidden;
+  border: solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+#bottom {
+  border: solid 10px aquamarine;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  border: solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-color: aquamarine;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+
+#icon-wrapper {
+  border:             solid transparent;
+  width:              70%;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#icon-right {
+  display:            inline-block;
+  float:              right;
+}
+
+#icon-left {
+  display:            inline-block;
+  float:              left;
+}
+
+#icon-left img, #icon-right img {
+  width:              50px;
+}
+
+#wrapper-top{
+  border:             solid transparent;
+  width:              auto;
+  background-color:   none;
+  overflow:           hidden;
+  display: block;
+}
