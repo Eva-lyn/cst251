@@ -1,10 +1,10 @@
 
 
 html{
-    background-color:   #BEFAFA;
-    background-image:   url("../img/bkrnd-blue.png");
-    background-repeat:  repeat;
-    background-size:    300px;
+  background-color:   #BEFAFA;
+  background-image:   url("../img/bkrnd-blue.png");
+  background-repeat:  repeat;
+  background-size:    300px;
 }
 
 body {
@@ -58,16 +58,10 @@ a {
   font-size: 90%;
 }
 
-.reveal {
-  /*width:100%;
-  text-align: right;*/
-  float: right;
-  position: relative;
-  top: -15px;
-  padding: 0;
-  margin: 0;
-  font-weight: normal;
-  font-size: 75%;
+
+@media screen and (max-width:800px) {
+  #wrapper, #content-left, #content-right
+  {width:100%;}
 }
 
 /* Biographical style elements */
@@ -79,34 +73,33 @@ main, .major-section, #content {
   margin:             20px;
   margin-top:         30px;
   background-color:   #fff;
+  display: flex;
 }
 
 /* #wrapper and #content-x is used for wrapping content ONLY */
 #wrapper {
-  border:             solid transparent;
-  background-color:   transparent;
-  overflow:           hidden;
-  margin:             20px;
-  margin-top:         35px;
+  border: solid transparent;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 #content-left {
-  display:            inline-block;
-  border:             solid 2px black;
-  width:              60%;
-  height:             430px;
-  background-color:   #fff;
-  padding:            10px 25px 10px 25px;
+  display: block;
+  border: solid 2px black;
+  background-color: #fff;
+  padding: 10px 25px 10px 25px;
+  flex: 60%;
 }
 
 #content-right {
-  display:            inline-block;
-  border:             solid 2px black;
-  width:              30%;
-  height:             430px;
-  background-color:   #fff;
-  padding:            10px 25px 10px 25px;
-  float:              right;
+  display: inline-block;
+  border: solid 2px black;
+  background-color: #fff;
+  padding: 10px 25px 10px 25px;
+  flex: 25%;
 }
 
 img {
