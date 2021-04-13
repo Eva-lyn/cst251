@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Lab 17: CSS Layout</title>
+		<title>Lab 18: Responsive Design</title>
 		<link rel="stylesheet" type="text/css" href="css/flex.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
 	<div>
-		<h1 class="title"> CSS Layout</h1>
+		<h1 class="title">Responsive Design</h1>
 	</div>
 
 	<div id="top">
 			<main>
 				<section>
 					<h2>Challenges</h2>
-						<p>For the flexbox page we were told to use flexbox elements in css so that
-						our page functioned with flexboxes. I do like the way the flexbox element looks.
-						I didn't have to worry about aligning the main block with the aside block
-						because flexbox took care of that for me. It also allowed me not to worry about filling space.
-						I'm excited to apply flexbox to my personal lab layout because it would resolve my
-						block size and aligning issue.</p>
+						<p>For this lab I was told to work with a partner, create a lab 18 page
+							using flexbox layout, and add a media query to make it more responsive.
+							I used the same flexbox layout from lab 17 and I am glad I did.
+							By changing some things in css with what I learned in class I was able
+							to fix some issues that I had from last lab. However using the media query
+							was a bit difficult at first simply because I didn't understand what I was doing.
+						</p>
 				</section>
 
 				<section>
 					<h2>Problems</h2>
-						<p><li>The main issue I had was with getting my flexboxes to wrap the way I wanted them to.
-							<li>There was also an issue with the size of my blocks. Even though they were set to 100%
-								of the page, they exceeded the width of my screen size once I added borders and padding.
-								I've never had this problem before so I really don't know what it is.
-							<li> I struggled with the effect my blocks take when they wrap when shrunken. I wanted them to
-								expand to 100% once they wrapped under eachother but I wasn't able to figure out how to do that.</p>
+						<p><li>The main issue I had was with finding out how to use the media query.
+								From the lecture I understood that the < meta > went inside my HTML but
+								I was unsure of how to set it up in CSS.
+							<li>I also didnt realize that the media query element in css used two sets
+								of curly brackets. Because of this it caused for a lot of my code to be broken.
+								This was actually very frustrating because for a couple hours I couldn't
+								figure out what was broken and why.
+							<li>The final problem I had was with adjusting my layout to make it better.
+								This took a while but I really wanted to nail this skill down so that I
+								could use it later.
 				</section>
 
-				<section2>
+				<div id="section2">
 					<h2>Results</h2>
-						<p>I decided to dress up this page with css because I was excited to see how it would look
-							with color and more styling. I tried my best to keep it simple but I struggle with that.
-							The point of this lab was to focus on layout but I couldnt help myself.</p>
-							<p>I really do like
-							how I was able to get this block to expand to 100% below the upper two blocks and then
-							shrink to the same size as the upper blocks.</p>
-							<p>I really do wish I could have figured out how to get my blocks to expand once they wrapped under eachother.
-							Below is the wrapping problem I'm talking about specifically.</p>
-							<br><br>
-							<img src="img/shrink1.png" width=300px> <img src="img/shrink2.png" width=550px>
-				</section>
+						<p>I learned that you only want to include the parent divs in the media
+							query element in css. Just like how flexbox works, if the parent is flex
+							so will be the children. So I fixed this problem by only including
+							#top, main , #bottom, section, and aside.</p>
+							<p>Just like the animation element, media query has two sets of (or more)
+							curly brackets. Because I didn't know this, I was missing a bracket in my
+							query element and this forced the browser to add a bracket at the end of my css.
+							This made every css element below the media query broken. I felt really silly
+							spending hours trying to figure this out only to find out I had a missing bracket.</p>
+							<p>While fixing up my layout I needed to get rid of all the floats, margins,
+							padding, and thick borders. From there I was able to fix my layout. I also had
+						 	to dabble in what flexbox had to offer to make things work.</p>
+							<p> I also experimented with moving #bottom to the inside of Main to see how it looked.
+							I liked it at first but didn't keep it because once the Aside block wrapped under Main
+							It didin't look like it belonged there anymore.
+							<br>
+							<img src="img/experiment.png"> <img src="img/experiment2.png">
+				</div>
 			</main>
 
 			<aside>
 				<h3> Previous Labs </h3>
-					<a href="../lab11/index.html"><img src="img/block-1.png" width=200></a>
-					<p> This is my lab 11 "Advanced Block Level Styling 1" </p>
-						<br>
-					<a href="../lab13/index.html"><img src="img/type.png" width=200></a>
-					<p> This is my lab 13 "typography 1" </p>
-						<br>
-					<a href="../lab15/index.html"><img src="img/fancy1.png" width=200></a>
-					<p> This is my lab 15 "Fancy CSS 1" </p>
-						<br>
-					<a href="../lab16/index.html"><img src="img/fancy2.png" width=200></a>
-					<p> This is my lab 16 "Fancy CSS 2" </p>
-						<br>
+					<div class="block">
+						<a href="../lab11/index.html"><img src="img/block-1.png"></a>
+						<p> This is my lab 11 "Advanced Block Level Styling 1" </p>
+					</div>
+					<div class="block">
+						<a href="../lab13/index.html"><img src="img/type.png"></a>
+						<p> This is my lab 13 "typography 1" </p>
+					</div>
+					<div class="block">
+						<a href="../lab15/index.html"><img src="img/fancy1.png"></a>
+						<p> This is my lab 15 "Fancy CSS 1" </p>
+					</div>
+					<div class="block">
+						<a href="../lab16/index.html"><img src="img/fancy2.png"></a>
+						<p> This is my lab 16 "Fancy CSS 2" </p>
+					</div>
 			</aside>
 	</div>
 
@@ -72,10 +89,10 @@
 					<a href="grid.html">Grid</a>
 				</div>
 	      <div id="icon-left">
-	          <a href="../index.html"><img src="img/home-icon.png" width=50></a>
+	          <a href="../index.html"><img src="img/home-icon.png"></a>
 	      </div>
 	      <div id="icon-right">
-					 <a href="../lab18/index.html"><img src="img/next-icon.png" width=50></a>
+					 <a href="../lab19/index.html"><img src="img/next-icon.png"></a>
 				</div>
 			</div>
 		</nav>
