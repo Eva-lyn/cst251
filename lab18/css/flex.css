@@ -131,7 +131,7 @@ Footer {
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   #top, main , #bottom, section, aside
   {width:100%;}
 }

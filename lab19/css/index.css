@@ -1,0 +1,30 @@
+.container-fluid {
+Border: solid transparent;
+}
+
+.col-sm-6 {
+Border: solid transparent;
+padding: 10px;
+}
+
+.col-sm-12 {
+  text-align: center;
+  Border: solid transparent;
+  border-radius: 10px;
+  background-color: #dafeff;
+  margin-top: 10px;
+  padding: 10px.
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 300;
+}
